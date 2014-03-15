@@ -15,4 +15,4 @@ Make a data directory, for example:
 
 Run the container:
 
-`docker run -p 127.0.0.1:27017:27017 -v /data/mongodb:/data/db -name mongodb mongodb-dev`
+`docker run -p 127.0.0.1:27017:27017 -v /data/mongodb:/data/db --name="mongodb" mongodb-dev`
